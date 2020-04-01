@@ -241,7 +241,6 @@ a{
     color: #ffffff;
 }
 
-
 /* subscrition final */
 
 #section5{
@@ -324,10 +323,11 @@ a{
 
 /* ----media-----*/
 
-@media (min-width: 850px)
-    .caselle{
-        display: inline-block;
-        width: 
-        margin-right:
-        margin-left:
+@media (min-width: 850px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-right: 8%;
+        padding-left: 8%;
     }
