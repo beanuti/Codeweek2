@@ -144,6 +144,14 @@ a{
     letter-spacing: normal;
     color: #5b6c94;
 }
+
+#sec3{
+    position: relative;
+    top: -77px;
+    width: 375px;
+    height: 2480px;
+}
+
 #background_circle{
     position: relative;
     bottom: 2205px;
@@ -152,14 +160,10 @@ a{
     background-color: #f8765e;
 }
 
-#general{
-    background-color: white;
-}
-
 #img_mobile_orange{
     position: relative;
     left: 97px;
-    top: 2692px;
+    top: 77px;
     width: 180px;
     height: 360px;
     object-fit: contain;
