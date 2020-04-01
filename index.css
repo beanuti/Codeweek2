@@ -39,12 +39,16 @@ a{
 }
 
 #iphone_mockup{
+    padding: 25px 0px 54px 1px;
     width: 375px;
     height: 310px;
     object-fit: contain;
 }
 
 #title_intro{
+    position: relative;
+    top: -15px;
+    padding: 6px 30px 15px 30px;
     width: 315px;
     height: 120px;
     font-size: 30px;
@@ -56,6 +60,7 @@ a{
 }
 
 #intro{
+    padding: 15px 30px 30px 30px;
     width: 315px;
     height: 160px;
     font-weight: bold;
@@ -65,5 +70,140 @@ a{
     text-align: center;
 }
 
+#email{
+    width: 335px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
 
+#submit{
+    position: relative;
+    top: 20px;
+    width: 168px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+    background-color: #9bdbe7;
+}
+
+#section2{
+    position: relative;
+    left: 20px;
+    right: 20px;
+    top: -65px;
+    background-color: white;
+    border-radius: 20px;
+    width: 335px;
+    height: 1571px;
+    box-shadow: 0 10px 34px 0 rgba(210, 210, 210, 0.5);
+}
+
+#img1_sect1{
+    width: 208px;
+    height: 120px;;
+}
+
+#img2_sec2{
+    width: 193px;
+    height: 140px;
+    object-fit: contain;
+}
+
+.title_sec2{
+    position: relative;
+    right: 255px;
+    left: 20px;
+    width: 295px;
+    height: 25px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: #031d5b;
+    border: 5px solid #f8765e;
+    border-style: none none solid none;
+}
+
+.text_sec2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 295px;
+    height: 192px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #5b6c94;
+}
+#background_circle{
+    position: relative;
+    bottom: 2205px;
+    width: 296px;
+    height: 296px;
+    background-color: #f8765e;
+}
+
+#general{
+    background-color: white;
+}
+
+#img_mobile_orange{
+    position: relative;
+    left: 97px;
+    top: 2692px;
+    width: 180px;
+    height: 360px;
+    object-fit: contain;
+}
+
+#taste{
+    width: 315px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f8765e;
+}
+
+#better{
+    width: 315px;
+    height: 45px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.73;
+    letter-spacing: normal;
+    text-align: center;
+    color: #031d5b;
+}
+
+#text_taste{
+    width: 315px;
+    height: 350px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5b6c94;
+}
 
