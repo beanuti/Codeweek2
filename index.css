@@ -154,7 +154,7 @@ a{
 
 #background_circle{
     position: relative;
-    bottom: 2205px;
+    top: 77px;
     width: 296px;
     height: 296px;
     background-color: #f8765e;
@@ -170,7 +170,8 @@ a{
 }
 
 #taste{
-    width: 315px;
+    position: relative;
+    top: 111px;
     height: 40px;
     font-family: Roboto;
     font-size: 30px;
