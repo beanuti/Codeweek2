@@ -351,5 +351,18 @@ a{
     justify-content: space-around;
 }
 
+#email{
+    order: 1;
+}
 
+#submit{
+    order: 2;
+}
 
+#section2{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
