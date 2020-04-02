@@ -325,13 +325,14 @@ a{
 
 @media (min-width: 750px){
     header{
-        max-height: 1085px
+        display: flex;
         justify-content: space-between;
         align-items: center;
         padding-top: 20px;
         padding-right: 5%;
         padding-left: 5%;
     }
+}
 
 #logo{
     display: flex;
@@ -342,10 +343,13 @@ a{
     padding: 0 11%;
 }
 
-a{
-
+.intro{
     display: flex;
-    order: 1;
-    align-items: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
+
+
 
